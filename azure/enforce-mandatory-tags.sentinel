@@ -14,6 +14,7 @@ mandatory_tags = [
   "Department",
 ]
 
+
 # Get all Azure VMs
 allAzureVMs = plan.find_resources("azurerm_virtual_machine")
 
